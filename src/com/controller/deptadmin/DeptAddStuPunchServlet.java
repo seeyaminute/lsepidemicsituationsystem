@@ -21,6 +21,7 @@ public class DeptAddStuPunchServlet extends HttpServlet {
 
         //获取表单请求的参数
         String sno = req.getParameter("sno");
+        //获取表单请求的参数
         String sispunch = req.getParameter("sispunch");
         String spunchdate = req.getParameter("spunchdate");
         String spunchtime = req.getParameter("spunchtime");
