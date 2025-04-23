@@ -46,7 +46,7 @@ public class DeptAddStuServlet extends HttpServlet {
             Object[] objects1 = {sno, sname, ssex, sage1, sclass, specialty, sdept, sphone, spsw};
 
             int num = DeptAdminDao.executeUpdate(sql, objects1);
-//输出数字
+//输出num
             System.out.println(num);
 
 //            req.getRequestDispatcher("/DeptQueryStuByPageServlet?currentPage=1&rows=8").forward(req, resp);
